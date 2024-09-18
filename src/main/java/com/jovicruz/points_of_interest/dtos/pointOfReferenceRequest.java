@@ -1,6 +1,5 @@
 package com.jovicruz.points_of_interest.dtos;
 
-import com.jovicruz.points_of_interest.domain.PointOfInterest;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.PositiveOrZero;

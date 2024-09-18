@@ -1,4 +1,4 @@
-package com.jovicruz.points_of_interest.domain;
+package com.jovicruz.points_of_interest.domain.poi;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

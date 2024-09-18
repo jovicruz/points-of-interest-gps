@@ -1,6 +1,6 @@
 package com.jovicruz.points_of_interest.repositories;
 
-import com.jovicruz.points_of_interest.domain.PointOfInterest;
+import com.jovicruz.points_of_interest.domain.poi.PointOfInterest;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

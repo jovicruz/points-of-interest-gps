@@ -1,6 +1,5 @@
 package com.jovicruz.points_of_interest.controllers;
 
-import com.jovicruz.points_of_interest.domain.PointOfInterest;
 import com.jovicruz.points_of_interest.dtos.pointOfInterestRequest;
 import com.jovicruz.points_of_interest.dtos.pointOfInterestResponse;
 import com.jovicruz.points_of_interest.dtos.pointOfReferenceRequest;

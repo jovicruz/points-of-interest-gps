@@ -1,6 +1,5 @@
 package com.jovicruz.points_of_interest.services;
 
-import com.jovicruz.points_of_interest.domain.PointOfInterest;
 import com.jovicruz.points_of_interest.dtos.pointOfInterestRequest;
 import com.jovicruz.points_of_interest.dtos.pointOfInterestResponse;
 import com.jovicruz.points_of_interest.dtos.pointOfReferenceRequest;
@@ -8,7 +7,6 @@ import com.jovicruz.points_of_interest.repositories.pointOfInterestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.awt.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
