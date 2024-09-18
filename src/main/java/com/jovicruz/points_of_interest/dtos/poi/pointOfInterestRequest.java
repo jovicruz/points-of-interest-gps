@@ -1,4 +1,4 @@
-package com.jovicruz.points_of_interest.dtos;
+package com.jovicruz.points_of_interest.dtos.poi;
 
 import com.jovicruz.points_of_interest.domain.poi.PointOfInterest;
 import jakarta.validation.constraints.NotEmpty;

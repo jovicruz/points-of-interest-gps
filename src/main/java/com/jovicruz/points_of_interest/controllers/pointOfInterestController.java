@@ -1,8 +1,8 @@
 package com.jovicruz.points_of_interest.controllers;
 
-import com.jovicruz.points_of_interest.dtos.pointOfInterestRequest;
-import com.jovicruz.points_of_interest.dtos.pointOfInterestResponse;
-import com.jovicruz.points_of_interest.dtos.pointOfReferenceRequest;
+import com.jovicruz.points_of_interest.dtos.poi.pointOfInterestRequest;
+import com.jovicruz.points_of_interest.dtos.poi.pointOfInterestResponse;
+import com.jovicruz.points_of_interest.dtos.poi.pointOfReferenceRequest;
 import com.jovicruz.points_of_interest.services.pointOfInterestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,8 +1,8 @@
 package com.jovicruz.points_of_interest.services;
 
-import com.jovicruz.points_of_interest.dtos.pointOfInterestRequest;
-import com.jovicruz.points_of_interest.dtos.pointOfInterestResponse;
-import com.jovicruz.points_of_interest.dtos.pointOfReferenceRequest;
+import com.jovicruz.points_of_interest.dtos.poi.pointOfInterestRequest;
+import com.jovicruz.points_of_interest.dtos.poi.pointOfInterestResponse;
+import com.jovicruz.points_of_interest.dtos.poi.pointOfReferenceRequest;
 import com.jovicruz.points_of_interest.repositories.pointOfInterestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

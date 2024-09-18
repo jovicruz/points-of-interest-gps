@@ -1,4 +1,4 @@
-package com.jovicruz.points_of_interest.dtos;
+package com.jovicruz.points_of_interest.dtos.auth;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;

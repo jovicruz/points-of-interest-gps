@@ -2,9 +2,9 @@ package com.jovicruz.points_of_interest.controllers;
 
 
 import com.jovicruz.points_of_interest.domain.user.User;
-import com.jovicruz.points_of_interest.dtos.authenticationDTO;
-import com.jovicruz.points_of_interest.dtos.loginResponseDTO;
-import com.jovicruz.points_of_interest.dtos.registerDTO;
+import com.jovicruz.points_of_interest.dtos.auth.authenticationDTO;
+import com.jovicruz.points_of_interest.dtos.auth.loginResponseDTO;
+import com.jovicruz.points_of_interest.dtos.auth.registerDTO;
 import com.jovicruz.points_of_interest.infra.security.tokenService;
 import com.jovicruz.points_of_interest.services.authService;
 import jakarta.validation.Valid;
@@ -12,7 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -33,7 +32,6 @@ public class authenticationController {
     private tokenService tokenService;
     @PostMapping("/login")
     public ResponseEntity login(@RequestBody @Valid authenticationDTO data){
-        System.out.println(data.getPassword());
         var login = new UsernamePasswordAuthenticationToken(data.getLogin(), data.getPassword());
         var auth = this.authenticationManager.authenticate(login);
 
